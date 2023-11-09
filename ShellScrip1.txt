@@ -1,0 +1,38 @@
+
+#For loop
+
+
+for variable in values
+do
+    # Commands to be executed inside the loop
+done
+
+
+for i in {1..5}
+do
+    echo "Iteration $i"
+done
+
+
+#While loop
+
+while [ condition ]
+do
+    # Commands to be executed inside the loop
+done
+
+
+#Until loop
+
+until [ condition ]
+do
+    # Commands to be executed inside the loop
+done
+
+
+counter=1
+until [ $counter -gt 5 ]
+do
+    echo "Iteration $counter"
+    ((counter++))
+done
